@@ -31,7 +31,10 @@ namespace EveryFan.Recruitment.UnitTests
             };
 
             PayoutEngine calculator = new PayoutEngine();
+<<<<<<< HEAD
             calculator.Create(PayoutScheme.WINNER_TAKES_ALL);
+=======
+>>>>>>> 9c01dd65928ea601259ca358a4cfed795c6ac63b
             IReadOnlyList<TournamentPayout> payouts = calculator.Calculate(tournament);
 
             Assert.AreEqual(1, payouts.Count);
@@ -67,7 +70,10 @@ namespace EveryFan.Recruitment.UnitTests
             };
 
             PayoutEngine calculator = new PayoutEngine();
+<<<<<<< HEAD
             calculator.Create(PayoutScheme.WINNER_TAKES_ALL);
+=======
+>>>>>>> 9c01dd65928ea601259ca358a4cfed795c6ac63b
             IReadOnlyList<TournamentPayout> payouts = calculator.Calculate(tournament);
 
             Assert.AreEqual(1, payouts.Count);
@@ -104,7 +110,10 @@ namespace EveryFan.Recruitment.UnitTests
             };
 
             PayoutEngine calculator = new PayoutEngine();
+<<<<<<< HEAD
             calculator.Create(PayoutScheme.WINNER_TAKES_ALL);
+=======
+>>>>>>> 9c01dd65928ea601259ca358a4cfed795c6ac63b
             IReadOnlyList<TournamentPayout> payouts = calculator.Calculate(tournament);
 
             Assert.AreEqual(2, payouts.Count);

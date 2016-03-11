@@ -9,9 +9,14 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EveryFan.Recruitment</RootNamespace>
     <AssemblyName>EveryFan.Recruitment</AssemblyName>
+<<<<<<< HEAD
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
+=======
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+>>>>>>> 9c01dd65928ea601259ca358a4cfed795c6ac63b
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,7 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PayingPosition.cs" />
+<<<<<<< HEAD
     <Compile Include="PayoutCalculators\PayoutCalculator.cs" />
+=======
+>>>>>>> 9c01dd65928ea601259ca358a4cfed795c6ac63b
     <Compile Include="PayoutEngine.cs" />
     <Compile Include="PayoutCalculators\FiftyFiftyPayoutCalculator.cs" />
     <Compile Include="PayoutCalculators\IPayoutCalculator.cs" />
